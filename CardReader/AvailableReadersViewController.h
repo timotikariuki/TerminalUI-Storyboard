@@ -13,5 +13,8 @@
 
 @property (weak, nonatomic) IBOutlet UIView *viewTapToPay;
 
+@property (weak, nonatomic) IBOutlet UIView *viewWisePad;
+@property (weak, nonatomic) IBOutlet UIView *viewWisePOS;
+
 @end
 

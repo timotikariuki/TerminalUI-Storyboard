@@ -14,6 +14,9 @@
 		F8F52BC42BF3510D0005FBA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F52BC32BF3510D0005FBA5 /* Assets.xcassets */; };
 		F8F52BC72BF3510D0005FBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F52BC52BF3510D0005FBA5 /* LaunchScreen.storyboard */; };
 		F8F52BCA2BF3510D0005FBA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BC92BF3510D0005FBA5 /* main.m */; };
+		F8F52BD22BF3A31C0005FBA5 /* WisePadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BD12BF3A31C0005FBA5 /* WisePadViewController.m */; };
+		F8F52BD82BF3A94E0005FBA5 /* WPCItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BD72BF3A94E0005FBA5 /* WPCItemTableViewCell.m */; };
+		F8F52BDB2BF3B8080005FBA5 /* CardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BDA2BF3B8080005FBA5 /* CardItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		F8F52BC62BF3510D0005FBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8F52BC82BF3510D0005FBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8F52BC92BF3510D0005FBA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8F52BD02BF3A31C0005FBA5 /* WisePadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WisePadViewController.h; sourceTree = "<group>"; };
+		F8F52BD12BF3A31C0005FBA5 /* WisePadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisePadViewController.m; sourceTree = "<group>"; };
+		F8F52BD62BF3A94E0005FBA5 /* WPCItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPCItemTableViewCell.h; sourceTree = "<group>"; };
+		F8F52BD72BF3A94E0005FBA5 /* WPCItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPCItemTableViewCell.m; sourceTree = "<group>"; };
+		F8F52BD92BF3B8080005FBA5 /* CardItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardItem.h; sourceTree = "<group>"; };
+		F8F52BDA2BF3B8080005FBA5 /* CardItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +74,13 @@
 				F8F52BB82BF350F50005FBA5 /* AppDelegate.m */,
 				F8F52BBA2BF350F50005FBA5 /* SceneDelegate.h */,
 				F8F52BBB2BF350F50005FBA5 /* SceneDelegate.m */,
+				F8F52BD62BF3A94E0005FBA5 /* WPCItemTableViewCell.h */,
+				F8F52BD72BF3A94E0005FBA5 /* WPCItemTableViewCell.m */,
 				F8F52BBD2BF350F50005FBA5 /* AvailableReadersViewController.h */,
+				F8F52BD02BF3A31C0005FBA5 /* WisePadViewController.h */,
+				F8F52BD12BF3A31C0005FBA5 /* WisePadViewController.m */,
+				F8F52BD92BF3B8080005FBA5 /* CardItem.h */,
+				F8F52BDA2BF3B8080005FBA5 /* CardItem.m */,
 				F8F52BBE2BF350F50005FBA5 /* AvailableReadersViewController.m */,
 				F8F52BC02BF350F50005FBA5 /* Main.storyboard */,
 				F8F52BC32BF3510D0005FBA5 /* Assets.xcassets */,
@@ -146,7 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F52BD22BF3A31C0005FBA5 /* WisePadViewController.m in Sources */,
+				F8F52BD82BF3A94E0005FBA5 /* WPCItemTableViewCell.m in Sources */,
 				F8F52BBF2BF350F50005FBA5 /* AvailableReadersViewController.m in Sources */,
+				F8F52BDB2BF3B8080005FBA5 /* CardItem.m in Sources */,
 				F8F52BB92BF350F50005FBA5 /* AppDelegate.m in Sources */,
 				F8F52BCA2BF3510D0005FBA5 /* main.m in Sources */,
 				F8F52BBC2BF350F50005FBA5 /* SceneDelegate.m in Sources */,
