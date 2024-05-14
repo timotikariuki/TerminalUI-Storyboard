@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F8F52BB92BF350F50005FBA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BB82BF350F50005FBA5 /* AppDelegate.m */; };
 		F8F52BBC2BF350F50005FBA5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BBB2BF350F50005FBA5 /* SceneDelegate.m */; };
-		F8F52BBF2BF350F50005FBA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BBE2BF350F50005FBA5 /* ViewController.m */; };
+		F8F52BBF2BF350F50005FBA5 /* AvailableReadersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BBE2BF350F50005FBA5 /* AvailableReadersViewController.m */; };
 		F8F52BC22BF350F50005FBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F52BC02BF350F50005FBA5 /* Main.storyboard */; };
 		F8F52BC42BF3510D0005FBA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F52BC32BF3510D0005FBA5 /* Assets.xcassets */; };
 		F8F52BC72BF3510D0005FBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F52BC52BF3510D0005FBA5 /* LaunchScreen.storyboard */; };
@@ -22,8 +22,8 @@
 		F8F52BB82BF350F50005FBA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F8F52BBA2BF350F50005FBA5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		F8F52BBB2BF350F50005FBA5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		F8F52BBD2BF350F50005FBA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F8F52BBE2BF350F50005FBA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8F52BBD2BF350F50005FBA5 /* AvailableReadersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvailableReadersViewController.h; sourceTree = "<group>"; };
+		F8F52BBE2BF350F50005FBA5 /* AvailableReadersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvailableReadersViewController.m; sourceTree = "<group>"; };
 		F8F52BC12BF350F50005FBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8F52BC32BF3510D0005FBA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8F52BC62BF3510D0005FBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 				F8F52BB82BF350F50005FBA5 /* AppDelegate.m */,
 				F8F52BBA2BF350F50005FBA5 /* SceneDelegate.h */,
 				F8F52BBB2BF350F50005FBA5 /* SceneDelegate.m */,
-				F8F52BBD2BF350F50005FBA5 /* ViewController.h */,
-				F8F52BBE2BF350F50005FBA5 /* ViewController.m */,
+				F8F52BBD2BF350F50005FBA5 /* AvailableReadersViewController.h */,
+				F8F52BBE2BF350F50005FBA5 /* AvailableReadersViewController.m */,
 				F8F52BC02BF350F50005FBA5 /* Main.storyboard */,
 				F8F52BC32BF3510D0005FBA5 /* Assets.xcassets */,
 				F8F52BC52BF3510D0005FBA5 /* LaunchScreen.storyboard */,
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8F52BBF2BF350F50005FBA5 /* ViewController.m in Sources */,
+				F8F52BBF2BF350F50005FBA5 /* AvailableReadersViewController.m in Sources */,
 				F8F52BB92BF350F50005FBA5 /* AppDelegate.m in Sources */,
 				F8F52BCA2BF3510D0005FBA5 /* main.m in Sources */,
 				F8F52BBC2BF350F50005FBA5 /* SceneDelegate.m in Sources */,
@@ -297,8 +297,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,8 +323,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
