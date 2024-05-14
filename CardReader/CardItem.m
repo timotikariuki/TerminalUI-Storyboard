@@ -9,11 +9,12 @@
 
 @implementation CardItem
 
-- (instancetype)initWithId:(NSString*)itemId itemName:(NSString*)itemName {
+- (instancetype)initWithId:(NSString*)itemId itemName:(NSString*)itemName isOnline:(Boolean)isOnline {
     self = [super init];
     if (self) {
         _itemId = itemId;
         _itemName = itemName;
+        _isOnline = isOnline;
     }
     return self;
 }

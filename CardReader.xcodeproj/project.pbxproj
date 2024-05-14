@@ -17,6 +17,8 @@
 		F8F52BD22BF3A31C0005FBA5 /* WisePadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BD12BF3A31C0005FBA5 /* WisePadViewController.m */; };
 		F8F52BD82BF3A94E0005FBA5 /* WPCItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BD72BF3A94E0005FBA5 /* WPCItemTableViewCell.m */; };
 		F8F52BDB2BF3B8080005FBA5 /* CardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52BDA2BF3B8080005FBA5 /* CardItem.m */; };
+		F8F794FF2BF3D41C00FD12A9 /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F794FE2BF3D41A00FD12A9 /* LocationsViewController.m */; };
+		F8F795022BF3D69300FD12A9 /* LocationItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F795012BF3D69300FD12A9 /* LocationItemTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		F8F52BD72BF3A94E0005FBA5 /* WPCItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPCItemTableViewCell.m; sourceTree = "<group>"; };
 		F8F52BD92BF3B8080005FBA5 /* CardItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardItem.h; sourceTree = "<group>"; };
 		F8F52BDA2BF3B8080005FBA5 /* CardItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardItem.m; sourceTree = "<group>"; };
+		F8F794FD2BF3D41A00FD12A9 /* LocationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationsViewController.h; sourceTree = "<group>"; };
+		F8F794FE2BF3D41A00FD12A9 /* LocationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationsViewController.m; sourceTree = "<group>"; };
+		F8F795002BF3D69300FD12A9 /* LocationItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationItemTableViewCell.h; sourceTree = "<group>"; };
+		F8F795012BF3D69300FD12A9 /* LocationItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationItemTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +88,15 @@
 				F8F52BD92BF3B8080005FBA5 /* CardItem.h */,
 				F8F52BDA2BF3B8080005FBA5 /* CardItem.m */,
 				F8F52BBE2BF350F50005FBA5 /* AvailableReadersViewController.m */,
+				F8F795002BF3D69300FD12A9 /* LocationItemTableViewCell.h */,
+				F8F795012BF3D69300FD12A9 /* LocationItemTableViewCell.m */,
 				F8F52BC02BF350F50005FBA5 /* Main.storyboard */,
 				F8F52BC32BF3510D0005FBA5 /* Assets.xcassets */,
 				F8F52BC52BF3510D0005FBA5 /* LaunchScreen.storyboard */,
 				F8F52BC82BF3510D0005FBA5 /* Info.plist */,
 				F8F52BC92BF3510D0005FBA5 /* main.m */,
+				F8F794FD2BF3D41A00FD12A9 /* LocationsViewController.h */,
+				F8F794FE2BF3D41A00FD12A9 /* LocationsViewController.m */,
 			);
 			path = CardReader;
 			sourceTree = "<group>";
@@ -166,8 +176,10 @@
 				F8F52BBF2BF350F50005FBA5 /* AvailableReadersViewController.m in Sources */,
 				F8F52BDB2BF3B8080005FBA5 /* CardItem.m in Sources */,
 				F8F52BB92BF350F50005FBA5 /* AppDelegate.m in Sources */,
+				F8F795022BF3D69300FD12A9 /* LocationItemTableViewCell.m in Sources */,
 				F8F52BCA2BF3510D0005FBA5 /* main.m in Sources */,
 				F8F52BBC2BF350F50005FBA5 /* SceneDelegate.m in Sources */,
+				F8F794FF2BF3D41C00FD12A9 /* LocationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

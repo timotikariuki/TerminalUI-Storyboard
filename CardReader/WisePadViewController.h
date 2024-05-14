@@ -19,6 +19,13 @@ typedef NS_ENUM(NSInteger, CardReaderType) {
 @property (nonatomic, assign) CardReaderType cardType;
 @property (nonatomic, strong) NSMutableArray* arrCardReaders;
 
+@property (weak, nonatomic) IBOutlet UITableView *itemsTableView;
+
+
+- (IBAction)onBack:(id)sender;
+- (IBAction)onHelp:(id)sender;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
