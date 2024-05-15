@@ -6,8 +6,8 @@
 //
 
 #import "WisePadViewController.h"
-#import "WPCItemTableViewCell.h"
-#import "CardItem.h"
+#import "tableCells/WPCItemTableViewCell.h"
+#import "models/CardItem.h"
 
 @interface WisePadViewController ()
 

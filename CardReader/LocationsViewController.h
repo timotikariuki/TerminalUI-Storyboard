@@ -11,13 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LocationsViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
-
-
+@property (nonatomic, strong) NSMutableArray *arrLocations;
 
 @property (weak, nonatomic) IBOutlet UITableView *locationsTableView;
-
-
-
 
 - (IBAction)onBack:(id)sender;
 

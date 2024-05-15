@@ -6,7 +6,8 @@
 //
 
 #import "LocationsViewController.h"
-#import "LocationItemTableViewCell.h"
+#import "tableCells/LocationItemTableViewCell.h"
+#import "models/LocationModel.h"
 
 @interface LocationsViewController ()
 
@@ -21,6 +22,17 @@
     // remove separater line after the last cell
     UIView *footerView = [[UIView alloc] initWithFrame:CGRectZero];
     self.locationsTableView.tableFooterView = footerView;
+    
+    // initialize locations array
+    self.arrLocations = [[NSMutableArray alloc] init];
+    
+    LocationModel *location = [[LocationModel alloc] init];
+    location.displayName = @"Paul Farrent";
+    location.address1 = @"Haywards Heath";
+    location.state = @"RH16 1UD";
+    location.country = @"GB";
+    
+    [self.arrLocations addObject:location];
 }
 
 
@@ -30,15 +42,18 @@
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     
-    NSInteger row = [indexPath row];
-    
     LocationItemTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LocationItemCellIdentifier" forIndexPath:indexPath];
+    
+    NSInteger row = [indexPath row];
+    LocationModel *locationInfo = [self.arrLocations objectAtIndex:row];
+    cell.lblTitle.text = locationInfo.displayName;
+    cell.lblDescription.text = [NSString stringWithFormat:@"%@, %@ %@ %@", locationInfo.address1, locationInfo.city, locationInfo.state, locationInfo.country];
     
     return cell;
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return self.arrLocations.count;
 }
 
 
