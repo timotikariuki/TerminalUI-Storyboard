@@ -11,6 +11,10 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imgHelp;
 
+
+@property (weak, nonatomic) IBOutlet UIView *viewTapToPayContainerView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *tapToPayViewHeightConstraint;
+
 @property (weak, nonatomic) IBOutlet UIView *viewTapToPay;
 
 @property (weak, nonatomic) IBOutlet UIView *viewWisePad;

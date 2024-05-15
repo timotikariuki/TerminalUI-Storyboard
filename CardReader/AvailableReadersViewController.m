@@ -26,6 +26,9 @@
     self.viewTapToPay.layer.borderWidth = 1.0f;
     self.viewTapToPay.layer.cornerRadius = 8.0f;
     
+    UITapGestureRecognizer *payTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapToPayTap:)];
+    [self.viewTapToPay addGestureRecognizer:payTapGesture];
+    self.viewTapToPay.userInteractionEnabled = YES;
     
     UITapGestureRecognizer *padTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewWisePadTap:)];
     [self.viewWisePad addGestureRecognizer:padTapGesture];
@@ -35,6 +38,12 @@
     [self.viewWisePOS addGestureRecognizer:posTapGesture];
     self.viewWisePOS.userInteractionEnabled = YES;
     
+    // Hide "Tap to Pay on iPhone"
+    self.tapToPayViewHeightConstraint.constant = 0.0f;
+    [self.viewTapToPayContainerView setHidden:YES];
+}
+
+-(void)viewTapToPayTap:(UITapGestureRecognizer *)gesture {
     
 }
 

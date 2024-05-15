@@ -62,8 +62,8 @@
 /* Class = "UILabel"; text = "BBPOS WisePOS E"; ObjectID = "XU0-Mm-sGI"; */
 "XU0-Mm-sGI.text" = "BBPOS WisePOS E";
 
-/* Class = "UIButton"; configuration.title = "NSLocalizedString(@\"save\", @\"save\")"; ObjectID = "Zki-7s-5k9"; */
-"Zki-7s-5k9.configuration.title" = "NSLocalizedString(@\"save\", @\"save\")";
+/* Class = "UIButton"; configuration.title = "Save"; ObjectID = "Zki-7s-5k9"; */
+"Zki-7s-5k9.configuration.title" = "Save";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zki-7s-5k9"; */
 "Zki-7s-5k9.normalTitle" = "Button";
