@@ -66,12 +66,11 @@
     UIColor *textColor = [UIColor colorWithRed:0 green:157/255.0f blue:86/255.0f alpha:1.0f];
     UIColor *bgColor = [UIColor colorWithRed:229/255.0f green:246/255.0f blue:238/255.0f alpha:1.0f];
     if (item.isOnline) {
-        cell.lblStatus.text = @"Online";
+        cell.lblStatus.text = NSLocalizedString(@"online", @"Online");
     } else {
-        cell.lblStatus.text = @"Offline";
+        cell.lblStatus.text = NSLocalizedString(@"offline", @"Offline");
         textColor = [UIColor colorWithRed:89/255.0f green:89/255.0f blue:89/255.0f alpha:1.0f];
         bgColor = [UIColor colorWithRed:236/255.0f green:237/255.0f blue:240/255.0f alpha:1.0f];
-        
     }
     
     [cell.lblStatus setTextColor:textColor];

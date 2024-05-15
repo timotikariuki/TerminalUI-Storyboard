@@ -1,0 +1,126 @@
+
+/* Class = "UIButton"; configuration.title = "Add"; ObjectID = "13y-Dl-red"; */
+"13y-Dl-red.configuration.title" = "Add";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "13y-Dl-red"; */
+"13y-Dl-red.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Display Name"; ObjectID = "27H-Xb-AyG"; */
+"27H-Xb-AyG.text" = "Display Name";
+
+/* Class = "UILabel"; text = "Not seeing any readers?"; ObjectID = "2d2-su-jKi"; */
+"2d2-su-jKi.text" = "Not seeing any readers?";
+
+/* Class = "UILabel"; text = "Address 1"; ObjectID = "2dT-r1-eSD"; */
+"2dT-r1-eSD.text" = "Address 1";
+
+/* Class = "UILabel"; text = "Locations"; ObjectID = "GxK-Fu-5jp"; */
+"GxK-Fu-5jp.text" = "Locations";
+
+/* Class = "UIButton"; configuration.title = "Help"; ObjectID = "GyH-Sm-czh"; */
+"GyH-Sm-czh.configuration.title" = "Help";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GyH-Sm-czh"; */
+"GyH-Sm-czh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "State/Province"; ObjectID = "HE0-Gp-1Yx"; */
+"HE0-Gp-1Yx.text" = "State/Province";
+
+/* Class = "UILabel"; text = "ONLINE"; ObjectID = "Lbn-Tm-agD"; */
+"Lbn-Tm-agD.text" = "ONLINE";
+
+/* Class = "UILabel"; text = "Paul Farrent"; ObjectID = "Ncg-dQ-bw5"; */
+"Ncg-dQ-bw5.text" = "Paul Farrent";
+
+/* Class = "UILabel"; text = "Address 2 (optional)"; ObjectID = "QBi-mw-mSg"; */
+"QBi-mw-mSg.text" = "Address 2 (optional)";
+
+/* Class = "UILabel"; text = "BBPOS WisePad 3"; ObjectID = "QFL-bq-Hhw"; */
+"QFL-bq-Hhw.text" = "BBPOS WisePad 3";
+
+/* Class = "UILabel"; text = "Add Location"; ObjectID = "Sqa-yp-YaE"; */
+"Sqa-yp-YaE.text" = "Add Location";
+
+/* Class = "UIButton"; configuration.title = "Register New Card Reader"; ObjectID = "TB9-UZ-nPz"; */
+"TB9-UZ-nPz.configuration.title" = "Register New Card Reader";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TB9-UZ-nPz"; */
+"TB9-UZ-nPz.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Choose the type of card reader you are trying to connect to the app."; ObjectID = "Tzk-7g-4Xy"; */
+"Tzk-7g-4Xy.text" = "Choose the type of card reader you are trying to connect to the app.";
+
+/* Class = "UIButton"; configuration.title = "Learn more"; ObjectID = "UBf-v0-aBH"; */
+"UBf-v0-aBH.configuration.title" = "Learn more";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UBf-v0-aBH"; */
+"UBf-v0-aBH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Zip/Postal"; ObjectID = "UWt-TU-VG2"; */
+"UWt-TU-VG2.text" = "Zip/Postal";
+
+/* Class = "UILabel"; text = "BBPOS WisePOS E"; ObjectID = "XU0-Mm-sGI"; */
+"XU0-Mm-sGI.text" = "BBPOS WisePOS E";
+
+/* Class = "UIButton"; configuration.title = "NSLocalizedString(@\"save\", @\"save\")"; ObjectID = "Zki-7s-5k9"; */
+"Zki-7s-5k9.configuration.title" = "NSLocalizedString(@\"save\", @\"save\")";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zki-7s-5k9"; */
+"Zki-7s-5k9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Turn device into a contactless reader"; ObjectID = "adc-Ta-Ras"; */
+"adc-Ta-Ras.text" = "Turn device into a contactless reader";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "bTI-Er-PvD"; */
+"bTI-Er-PvD.text" = "City";
+
+/* Class = "UILabel"; text = "Available Card Readers"; ObjectID = "cIt-sq-H67"; */
+"cIt-sq-H67.text" = "Available Card Readers";
+
+/* Class = "UILabel"; text = "If the card reader is powered on but not in the list, you may need to register the device with Stripe or ensure it is using the same internet connection."; ObjectID = "cym-Zj-vNK"; */
+"cym-Zj-vNK.text" = "If the card reader is powered on but not in the list, you may need to register the device with Stripe or ensure it is using the same internet connection.";
+
+/* Class = "UILabel"; text = "Haywards Health, RH16 1UD GB"; ObjectID = "dcO-wh-KnE"; */
+"dcO-wh-KnE.text" = "Haywards Health, RH16 1UD GB";
+
+/* Class = "UILabel"; text = "Tap to Pay on iPhone"; ObjectID = "eBN-1G-Ojg"; */
+"eBN-1G-Ojg.text" = "Tap to Pay on iPhone";
+
+/* Class = "UILabel"; text = "Country"; ObjectID = "fuM-eb-q61"; */
+"fuM-eb-q61.text" = "Country";
+
+/* Class = "UILabel"; text = "Turn on Stripe Terminal WisePad 3 reader and place near your device. Do not pair in Settings."; ObjectID = "ikf-7k-6gQ"; */
+"ikf-7k-6gQ.text" = "Turn on Stripe Terminal WisePad 3 reader and place near your device. Do not pair in Settings.";
+
+/* Class = "UILabel"; text = "WPC323220034805"; ObjectID = "jf8-fe-ehy"; */
+"jf8-fe-ehy.text" = "WPC323220034805";
+
+/* Class = "UILabel"; text = "Select a location below to use with your card reader or add a new location."; ObjectID = "lUP-Nn-V1J"; */
+"lUP-Nn-V1J.text" = "Select a location below to use with your card reader or add a new location.";
+
+/* Class = "UILabel"; text = "Select a location below to use with your card reader or add a new location."; ObjectID = "nYX-9f-bwo"; */
+"nYX-9f-bwo.text" = "Select a location below to use with your card reader or add a new location.";
+
+/* Class = "UILabel"; text = "Available Card Readers"; ObjectID = "qU8-Nu-WoF"; */
+"qU8-Nu-WoF.text" = "Available Card Readers";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "r7y-h5-iiZ"; */
+"r7y-h5-iiZ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rCB-9N-p3N"; */
+"rCB-9N-p3N.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "BBPOS WisePad 3"; ObjectID = "tO9-BL-BXJ"; */
+"tO9-BL-BXJ.text" = "BBPOS WisePad 3";
+
+/* Class = "UILabel"; text = "Connects via Bluetooth Scan"; ObjectID = "uJS-NF-REx"; */
+"uJS-NF-REx.text" = "Connects via Bluetooth Scan";
+
+/* Class = "UILabel"; text = "Connects via Internet (wifi or ethernet)"; ObjectID = "xbV-xM-0xW"; */
+"xbV-xM-0xW.text" = "Connects via Internet (wifi or ethernet)";
+
+/* Class = "UILabel"; text = "Tap the card reader in the list that you wish to connect to this device."; ObjectID = "yDn-HM-dN9"; */
+"yDn-HM-dN9.text" = "Tap the card reader in the list that you wish to connect to this device.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zKK-ps-AOP"; */
+"zKK-ps-AOP.normalTitle" = "Button";
